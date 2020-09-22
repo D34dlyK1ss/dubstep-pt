@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+margin-left: auto;
+margin-top: 50px;
+margin-bottom: 20px;
+text-align: center;
+font-family: impact, sans-serif;
+text-transform: uppercase;
+color: blueviolet;
+text-shadow: 3px 2px black;
+}
+
+h3 {
+margin-left: 25px;
+margin-bottom: 20px;
+font-family: helvetica, sans-serif;
+}
+
+h5 {
+margin-left: 25px;
+margin-bottom: 20px;
+font-family: helvetica, sans-serif;
+}
+
+a {
+color:blueviolet;
+text-decoration: none;
+font-size: 20px;
+}
+
+a:link {
+	color: blueviolet;
+	text-decoration: none;
+}
+
+a:hover {
+	color: violet;
+	transition: color 0.2s;
+}
+
+p {
+  margin-left: 25px;
+  margin-right: 25px;
+	text-align: justify;
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.cover {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 110px;
+}
+
+.pic {
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+ul {
+    text-align: justify;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+blockquote {
+  font-style: italic;
+    font-family: times, serif;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-bottom: 72px;
+}
+
+audio {
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.topnav {
+  width: 100%;
+	top: 0;
+	margin-top: 0;
+  background-color: #333333;
+  overflow: hidden;
+  position: fixed;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: blueviolet;
+    transition:  0.3s;
+}
+
+.topnav .active {
+    background-color: blueviolet;
+    color: white;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-color: #333333;
+}
+
+.footer p {
+    font-family: arial, serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: 8px;
+}
+
+#Button:focus {
+  display: none;
+  position: fixed;
+  bottom: 43px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#Button:hover {
+  background-color: #555;
+}
