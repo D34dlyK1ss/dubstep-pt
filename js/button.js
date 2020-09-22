@@ -1,19 +1,18 @@
-//Get the button:
-mybutton = document.getElementById("Button");
+$('body').prepend('<a href="body" class="back-to-top page-scroll">Voltar para cima</a>');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+let amountScrolled = 600;
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+$(window).scroll(function() {
+  if ($(window).scrollTop() > amountScrolled) {
+    $('a.back-to-top').fadeIn('500');
   }
-}
+  else {
+    $('a.back-to-top').fadeOut('500');
+  }
+});
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
+
+/* Removes Long Focus On Buttons */
+$(".button, a, button").mouseup(function() {
+	$(this).blur();
+});

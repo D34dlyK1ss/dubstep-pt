@@ -4,36 +4,36 @@
 }
 
 h1 {
-margin-left: auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-font-family: impact, sans-serif;
-text-transform: uppercase;
-color: blueviolet;
-text-shadow: 3px 2px black;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: #8000ff;
+  text-shadow: 3px 2px black;
 }
 
 h3 {
-margin-left: 25px;
-margin-bottom: 20px;
-font-family: helvetica, sans-serif;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-family: helvetica, sans-serif;
 }
 
 h5 {
-margin-left: 25px;
-margin-bottom: 20px;
-font-family: helvetica, sans-serif;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-family: helvetica, sans-serif;
 }
 
 a {
-color:blueviolet;
-text-decoration: none;
-font-size: 20px;
+  color:#8000ff;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 a:link {
-	color: blueviolet;
+	color: #8000ff;
 	text-decoration: none;
 }
 
@@ -66,18 +66,18 @@ p {
 }
 
 ul {
-    text-align: justify;
-    font-family: helvetica, sans-serif;
-    font-size: 18px;
-    margin-left: 10px;
+  text-align: justify;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
 }
 
 blockquote {
   font-style: italic;
-    font-family: times, serif;
-    font-size: 18px;
-    margin-left: 35px;
-    margin-bottom: 72px;
+  font-family: times, serif;
+  font-size: 18px;
+  margin-left: 35px;
+  margin-bottom: 72px;
 }
 
 audio {
@@ -95,23 +95,23 @@ audio {
 }
 
 .topnav a {
-    float: left;
-    color: white;
-    font-family: arial, sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
+  float: left;
+  color: white;
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav a:hover {
-    background-color: blueviolet;
-    transition:  0.3s;
+  background-color: #8000ff;
+  transition:  0.3s;
 }
 
 .topnav .active {
-    background-color: blueviolet;
-    color: white;
+  background-color: #8000ff;
+  color: white;
 }
 
 .footer {
@@ -122,29 +122,27 @@ audio {
 }
 
 .footer p {
-    font-family: arial, serif;
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    margin: 8px;
-}
-
-#Button:focus {
-  display: none;
-  position: fixed;
-  bottom: 43px;
-  right: 10px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: blueviolet;
+  font-family: arial, serif;
+  font-size: 14px;
   color: white;
-  cursor: pointer;
-  padding: 12px;
-  border-radius: 10px;
-  font-size: 16px;
+  text-align: center;
+  margin: 8px;
 }
 
-#Button:hover {
-  background-color: #555;
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 0.75rem;
+	bottom: 0.75rem;
+	display: none;
+	width: 2.625rem;
+	height: 2.625rem;
+  border-radius: 1.875rem;
+	background: #8000ff;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color:   #a000ff; 
 }
