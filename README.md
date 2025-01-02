@@ -1,3 +1,3 @@
 # Dubstep
 
-Website criado no meu 11º ano no âmbito da disciplina de Redes de Comunicação
+Website created in my 11th grade for Communication Networks class
